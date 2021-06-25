@@ -393,22 +393,22 @@
 //   }
 // }
 
-for (let i = 1; i <= 100; i++) {
-  sum += i;
+// for (let i = 1; i <= 100; i++) {
+//   sum += i;
 
-  if (i % 2 === 0) {
-    sumEven += i;
-    if (i % 6 !== 0) {
-      sumFinal += i ** 2;
-    }
-  } else {
-    sumOdd += i;
-  }
+//   if (i % 2 === 0) {
+//     sumEven += i;
+//     if (i % 6 !== 0) {
+//       sumFinal += i ** 2;
+//     }
+//   } else {
+//     sumOdd += i;
+//   }
 
-  if (i % 3 === 0 && i % 6 !== 0) {
-    sumFinal -= i ** 2;
-  }
-}
+//   if (i % 3 === 0 && i % 6 !== 0) {
+//     sumFinal -= i ** 2;
+//   }
+// }
 
 // console.log(sum);
 // console.log(sumEven);
@@ -416,10 +416,10 @@ for (let i = 1; i <= 100; i++) {
 // console.log(sumFinal);
 
 // Lab 9.5
-let sum = 100000;
-for (let i = 0; i < 10; i++) {
-  // sum = (sum * 2.5) / 100 + sum;
-  // หรือ
-  sum += 0.025 * sum;
-}
-console.log(sum.toFixed(2));
+// let sum = 100000;
+// for (let i = 0; i < 10; i++) {
+//   // sum = (sum * 2.5) / 100 + sum;
+//   // หรือ
+//   sum += 0.025 * sum;
+// }
+// console.log(sum.toFixed(2));
