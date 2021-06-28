@@ -423,3 +423,90 @@
 //   sum += 0.025 * sum;
 // }
 // console.log(sum.toFixed(2));
+
+// Lab 9.6
+// let str = '';
+
+// for (let i = 0; i < 4; i++) {
+//   for (let j = 0; j < 4; j++) {
+//     if (i >= j) {
+//       str += '*';
+//     } else {
+//       break;
+//     }
+//   }
+//   str += '\n';
+// }
+// console.log(str);
+
+// Lab 9.7
+// let str = '';
+// for (let i = 2; i <= 12; i++) {
+//   for (let j = 1; j <= 12; j++) {
+//     str += `${i} x ${j} = ${i * j}\n`;
+//   }
+//   str += '\n';
+// }
+
+// Lab 9.8
+// console.log(str);
+// let sum = 0;
+// let count = 0;
+// while (1) {
+//   let input = prompt('Enter number');
+//   if (+input <= 0 || !+input) {
+//     break;
+//   }
+//   sum += +input;
+//   count++;
+// }
+
+// console.log('sum: ' + sum);
+// console.log('avg: ' + sum / count);
+
+// Lab 9.9
+// const correctNumber = prompt('Enter correct number');
+
+// if (!isNumeric(correctNumber)) {
+//   alert("You don't enter a number");
+// }
+
+// let count = 0;
+// while (1) {
+//   let guessNumber = prompt('Guess my number');
+
+//   if (!isNumeric(guessNumber)) {
+//     alert("You don't enter a number");
+//     continue;
+//   }
+
+//   count++;
+
+//   if (+correctNumber === +guessNumber) {
+//     alert(`ยินดีด้วย คุณทายทั้งหมด ${count} ครั้ง`);
+//     break;
+//   } else if (+correctNumber < +guessNumber) {
+//     alert('ค่ามากเกินไป');
+//   } else {
+//     alert('ค่าน้อยเกินไป');
+//   }
+// }
+
+// function isNumeric(number) {
+//   return !(!number || number.trim() === '' || !+number);
+// }
+
+// // Lab 9.10
+// for (let i = 2; i <= 100; i++) {
+//   let isPrime = true;
+//   for (let j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+//   if (isPrime) console.log(i);
+// }
+
+// let firstName = undefined;
+// if (!firstName || firstName.trim() === '')
